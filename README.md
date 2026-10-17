@@ -1,10 +1,10 @@
-# 🏥 Patient Management System API
+#  Patient Management System API
 
 A RESTful backend application built using **FastAPI** for efficient and scalable patient record management. The system provides complete CRUD functionality with robust request validation powered by **Pydantic**, ensuring clean data handling and reliable API behavior.
 
 ---
 
-## 📌 Overview
+##  Overview
 
 The **Patient Management System API** is designed to streamline patient data operations in a structured and secure manner. It demonstrates backend best practices including:
 
@@ -18,18 +18,18 @@ This project is ideal for showcasing backend development skills using FastAPI.
 
 ---
 
-## 🚀 Features
+##  Features
 
-* ✅ Create new patient records
-* 📄 Retrieve individual or multiple patient records
-* ✏️ Update existing patient details
-* ❌ Delete patient records
-* 🛡️ Data validation using Pydantic schemas
-* 📘 Auto-generated API docs via Swagger UI
+*  Create new patient records
+*  Retrieve individual or multiple patient records
+*  Update existing patient details
+*  Delete patient records
+*  Data validation using Pydantic schemas
+*  Auto-generated API docs via Swagger UI
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **FastAPI** – High-performance web framework
 * **Pydantic** – Data validation and serialization
@@ -37,7 +37,7 @@ This project is ideal for showcasing backend development skills using FastAPI.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 Patient-Management-System-API/
@@ -49,16 +49,16 @@ Patient-Management-System-API/
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
-### 1️⃣ Clone the Repository
+### 1️ Clone the Repository
 
 ```bash
 git clone <your-repo-url>
 cd Patient-Management-System-API
 ```
 
-### 2️⃣ Create Virtual Environment (Recommended)
+### 2️ Create Virtual Environment (Recommended)
 
 ```bash
 python -m venv venv
@@ -66,13 +66,13 @@ source venv/bin/activate   # For Mac/Linux
 venv\Scripts\activate      # For Windows
 ```
 
-### 3️⃣ Install Dependencies
+### 3️ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Run the Application
+### 4️ Run the Application
 
 ```bash
 uvicorn main:app --reload
@@ -80,7 +80,7 @@ uvicorn main:app --reload
 
 ---
 
-## 🌐 API Documentation
+##  API Documentation
 
 Once the server is running, access interactive API documentation:
 
@@ -98,7 +98,7 @@ Once the server is running, access interactive API documentation:
 
 ---
 
-## 📌 Example Endpoints
+##  Example Endpoints
 
 | Method | Endpoint         | Description          |
 | ------ | ---------------- | -------------------- |
@@ -110,7 +110,7 @@ Once the server is running, access interactive API documentation:
 
 ---
 
-## 🧠 Learning Objectives
+##  Learning Objectives
 
 This project demonstrates:
 
